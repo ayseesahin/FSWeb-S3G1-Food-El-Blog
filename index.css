@@ -45,7 +45,7 @@ p {
 */
 img {
   border-radius: 10px;
-  width: 98%;
+  width: 100%;
 }
 
 
@@ -60,13 +60,16 @@ img {
 }
 
 .content-img {
-  width: 70%;
+  width: 40%;
 }
 
 .content-text {
-  width: 80%;
+  width: 70%;
 }
 
+.content-img + .content-text {
+  margin-left: 0;
+}
 
 .container {
   /*======= width property yaratın. Değerini 605px olarak atayın */
@@ -144,7 +147,6 @@ footer .footer-content h4 {
 }
 
 footer nav {
-
   display: flex;
 }
 
@@ -174,7 +176,7 @@ footer nav a:hover {
 footer .footer-content {
   padding: 20px 0;
    /*======= metni ortalayacak kodu yazın */
-   text-align: center;
+  text-align: center;
 }
 
 footer .copyright {
